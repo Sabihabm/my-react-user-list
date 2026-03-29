@@ -1,0 +1,53 @@
+.user-card-container{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+.user-details-container{
+    padding: 20px;
+    margin: 10px;
+    width: 24vw;
+}
+
+.profile-pic{
+    height: 16vh;
+    width: 20vw;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.delete-img{
+    height: 15px;
+    border-radius: 0px;
+    border-width: 0px;
+    border-color: transparent;
+}
+
+.delete-button{
+    border-width: 0px;
+    margin: auto;
+    background-color: transparent;
+
+}
+
+@media screen and (min-width: 768px) {
+    .user-details-container{
+        padding: 15px;
+        width: 10vw;
+       margin: 10px;
+    }
+        .profile-pic{
+            height: 15vh;
+            width: 8vw;
+            margin: 25px;
+        }
+        .delete-button{
+            margin: 15px;
+            background-color: transparent;
+        }
+    
+}

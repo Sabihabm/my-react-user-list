@@ -1,0 +1,23 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.title{
+    font-size: 54px;
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 32px;
+    }
+    .app-container{
+        padding: 10px;
+        width: auto;
+    }
+    
+}
