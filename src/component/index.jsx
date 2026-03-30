@@ -1,6 +1,6 @@
 import "./index.css";
 
-const Userprofile = (props) => {
+const UserProfile = (props) => {
   const { userDetails, deleteUser } = props;
   const { imageUrl, name, role, uniqueNo } = userDetails;
   const onDelete = () => {
@@ -27,4 +27,4 @@ const Userprofile = (props) => {
   );
 };
 
-export default Userprofile;
+export default UserProfile;

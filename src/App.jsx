@@ -51,7 +51,7 @@ class App extends Component {
   render() {
       const {searchInput,userDetailsList} = this.state
       const searchResults = userDetailsList.filter(eachUser => 
-        eachUser.name.includes(searchInput.toLowerCase())
+        eachUser.name.toLowerCase().includes(searchInput.toLowerCase())
       )
 
 
